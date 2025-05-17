@@ -58,3 +58,4 @@ There are several ways to format strings in Python, including:
 
 # # mixed arguments
 # print("Hello {0}, your balance is {1}.".format( "Mukesh",blc=230.2346))
+print("Hello {0}, your balance is {1}.".format( "Mukesh",230.2346))
