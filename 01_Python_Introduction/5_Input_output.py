@@ -67,5 +67,6 @@ You can also specify a custom delimiter by passing it as an argument to the `spl
 
 
 """
-# Age=input().split(".")
-# print(f"Your Age is {Age}")
+Age=input().split(".")
+print(f"Your Age is {Age}")
+
