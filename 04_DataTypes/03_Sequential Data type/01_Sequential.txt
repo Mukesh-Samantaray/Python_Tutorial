@@ -1,0 +1,8 @@
+What is Sequential Data type?
+ Sequential data is a data where order of data matters.in sequential data the main thing is that they are arranged in order and every data is dependent on previous data.
+ eg: time seriees, temperature,stock analysis
+ eg:predictive analysis, Natural language processing
+ Sequential Data Types in Python are:
+      1.List
+      2.tuple
+      3.String

@@ -110,4 +110,7 @@ is internally use id() to check the memory address of the object.
 
 
 '''
+list=[1,[2,3],5]
+a,b,c=list
+print(a,b,c)
 
