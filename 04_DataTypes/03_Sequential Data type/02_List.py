@@ -220,9 +220,16 @@ dictionaries = [{x: x**2} for x in range(1, 6)]
 # print(mlist[::-1])
 
 """ Rotate a list  """
-mlist=[1,2,3,4,5]
-for i in range(len(mlist)-1,0,-1):
-    mlist[i]=mlist[i-1]
-    print(mlist)
+# mlist=[1,2,3,4,5]
+# for i in range(len(mlist)-1,0,-1):
+#     mlist[i]=mlist[i-1]
+#     print(mlist)
+# even=[]
+def Avg(list):
+    i=0
+    sum=[i=i+x for x in list]
+    return
+
+Marks=[1,2,3,4,5,6,7,8,9,10]
 
 

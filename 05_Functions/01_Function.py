@@ -151,6 +151,7 @@ ii.**args
 
 '''
 def printx(*args,**kargs):
+    '''ok'''
     for i in args:
           print(sum(i))
     
@@ -158,8 +159,9 @@ def printx(*args,**kargs):
            
            print(f'Key:{i},Value :{j}')
            print(type(kargs))
+    list = []       
+    for i in kargs.keys():
+        list.append(i)
+        print(list)       
 printx((1,2,3,4),ds="harsh",js="rajesh") #-----------------Create Dictionary
-
-
-
 
